@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore all files and folders
+/converters/outputs/*
+/converters/logs/*
+/converters/data/*
+/converters/data/customers/*
+/converters/temp/*
+/tests/*
+!.gitkeep
+
+# ide config
+.vscode
+.idea
